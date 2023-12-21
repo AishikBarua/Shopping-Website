@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">  
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    
+
+    <title>Online Shopping</title>
+</head>
+<body>
+    <!--navbar -->
+    <nav>
+
+        <!--adding burger4 menu-->
+
+        <div class="menu-toogle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <h2 class="logo">ChicFlick</h2>
+        <div class="menu-list">
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#product">Products</a>
+            <a href="#offer">Offers</a>
+            <a href="#news">News</a>
+        </div>
+        <div class="menu-right">
+            <div class="search">
+                <button class="btn btn-menu">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="cart">
+                <button class="btn btn-menu">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                 <!--adding cart-->
+                 <div class="cart-content">
+                    <a href="#">
+                        <div class="cart-detail">
+                            <img class="cart-image" src="img/m2.jpg" alt="">
+                            <div class="cart-text">
+                                <h4>One Set Workout</h4>
+                                <p>2 Items</p>
+                            </div>
+                            <h4>$120.00</h4>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="cart-detail">
+                            <img class="cart-image" src="img/m4.jpg" alt="">
+                            <div class="cart-text">
+                                <h4>Knit Wear Yellow</h4>
+                                <p>1 Items</p>
+                            </div>
+                            <h4>$120.00</h4>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="cart-detail">
+                            <img class="cart-image" src="img/m7.jpg" alt="">
+                            <div class="cart-text">
+                                <h4>Pink Strip</h4>
+                                <p>2 Items</p>
+                            </div>
+                            <h4>$120.00</h4>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+ <!--navbar -->
+
+  <!--header -->
+
+  <header id="Home">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/c1.jpg" alt="">
+                <div class="swiper-desc">
+                    <h1>Discover Your <br>Own Style</h1>
+                    <p>There are a few different ways to determine your personal style archetype.</p>
+                    <button class="swiper-btn">Check Now</button>
+                </div>
+            </div>
+        
+            <div class="swiper-slide">
+                <img src="img/c2.jpg" alt="">
+                <div class="swiper-desc desc2">
+                    <h1>Shopping The Way <br>You Like It</h1>
+                    <p>There are a few different ways to determine your personal style archetype.</p>
+                    <button class="swiper-btn">Check Now</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+    </div>
+  </header>
+
+   <!--header -->
+
+
+      <!--Guarantee -->
+
+      <section class="guarantee">
+        <div class="guarantee-wrapper">
+            <div class="guarantee-card">
+                <i class="fas fa-truck guarantee-icon"></i>
+                <div class="guarantee-text">
+                    <h3>Free Shipping</h3>
+                    <p>Free Shipping worldwide on order more than $70. What are you waiting for?</p>
+                </div>
+            </div>
+            <div class="guarantee-card">
+                <i class="fas fa-truck-loading guarantee-icon"></i>
+                <div class="guarantee-text">
+                    <h3>30-Days Returns</h3>
+                    <p>If you do not like the Products, you have 30 days to Return it.</p>
+                </div>
+            </div>
+
+            <div class="guarantee-card">
+                <i class="fas fa-money-bill-wave guarantee-icon"></i>
+                <div class="guarantee-text">
+                    <h3>100% Money Refund</h3>
+                    <p>We commited to sell original products , we will refund your money if the products are fake</p>
+                </div>
+            </div>
+            
+        </div>
+      </section>
+ <!--Guarantee -->
+
+  <!--Collection -->
+
+  <section class="collection" id="collection">
+    <h1 class="heading-title">Discover Collections</h1>
+    <div class="collection-wrapper">
+        <!--Left side-->
+        <div class="collection-left">
+            <div class="collection-card">
+                <img src="img/p3.jpg" alt="">
+                <div class="collection-detail">
+                    <h2>Casual Outfit</h2>
+                    <span><i class="fas fa-long-arrow-alt-right"></i>Shop Now</span>
+                </div>
+            </div>
+        </div>
+
+        <!--right side-->
+        <div class="collection-right">
+            <div class="collection-card">
+                <img src="img/m3.jpg" alt="">
+                <div class="collection-detail">
+                    <h2>Workout Now</h2>
+                    <span><i class="fas fa-long-arrow-alt-right"></i>Shop Now</span>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="img/m4.jpg" alt="">
+                <div class="collection-detail">
+                    <h2>Vaction Series</h2>
+                    <span><i class="fas fa-long-arrow-alt-right"></i>Shop Now</span>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="img/m7.jpg" alt="">
+                <div class="collection-detail">
+                    <h2>Dress In Black</h2>
+                    <span><i class="fas fa-long-arrow-alt-right"></i>Shop Now</span>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="img/m5.jpg" alt="">
+                <div class="collection-detail">
+                    <h2>Ready to Go</h2>
+                    <span><i class="fas fa-long-arrow-alt-right"></i>Shop Now</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  </section>
+    <!--Collection -->
+
+      <!--Product -->
+
+      <section class="product" id="product">
+        <h1 class="heading-title">Popular Products</h1>
+
+        <!--filter button-->
+        <div class="filter-group" id="filter">
+            <button class="product-filter is-checked" data-filter="*">All Products</button>
+            <button class="product-filter " data-filter=".new">New Arrival</button>
+            <button class="product-filter " data-filter=".best">Best Seller</button>
+            <button class="product-filter " data-filter=".promo">Promo</button>
+        </div>
+        <!--Product list-->
+        <div class="product-wrapper">
+          <div class="product-card new">
+            <div class="product-label label-red">New</div>
+            <img class="product-image" src="img/p1.jpg" alt="">
+            <div class="product-detail">
+                <h4>One Set Workout <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card best">
+            <div class="product-label label-yellow">Best Seller</div>
+            <img class="product-image" src="img/p2.jpg" alt="">
+            <div class="product-detail">
+                <h4>Black Blazer $ Skirt <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card ">
+            <img class="product-image" src="img/m6.jpg" alt="">
+            <div class="product-detail">
+                <h4>Pink Strip Dress <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card promo">
+            <div class="product-label label-blue">Promo</div>
+            <img class="product-image" src="img/p4.jpg" alt="">
+            <div class="product-detail">
+                <h4>Flowe Dress <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card promo">
+            <div class="product-label label-yellow">Best Seller</div>
+            <img class="product-image" src="img/p5.jpg" alt="">
+            <div class="product-detail">
+                <h4>Blazer <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card promo">
+            <div class="product-label label-red">New</div>
+            <img class="product-image" src="img/p6.jpg" alt="">
+            <div class="product-detail">
+                <h4>White T-Shirt <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+
+          <div class="product-card promo">
+            <img class="product-image" src="img/m4.jpg" alt="">
+            <div class="product-detail">
+                <h4>Brown Glassess <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+          
+          <div class="product-card promo">
+            <div class="product-label label-yellow">Best Seller</div>
+            <img class="product-image" src="img/m2.jpg" alt="">
+            <div class="product-detail">
+                <h4>Glassess <i class="far fa-heart"></i></h4>
+                <span>$40.45</span>
+             </div>
+             <button class="product-button">Add to cart</button>
+          </div>
+        </div>
+      </section>
+      <!--Product -->
+
+
+      <!--Offer-->
+
+      <section class="offers" id="offers">
+        <div class="offers-wrapper">
+            <h2>Seasons Sale</h2>
+            <h2>Up to 50% off All Products </h2>
+            <button class="offers-button">Shop Now</button>
+        </div>
+      </section>
+
+      <!--news-->
+
+      <section class="news" id="news">
+        <h1 class="heading-title">Latest News</h1>
+        <div class="news-wrapper">
+            <div class="news-card">
+                <img src="img/m1.jpg" alt="">
+                <div class="news-overlay">
+                    <div class="news-detail">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <img src="img/p4.jpg" alt="">
+                <div class="news-overlay">
+                    <div class="news-detail">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <img src="img/m5.jpg" alt="">
+                <div class="news-overlay">
+                    <div class="news-detail">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+<!--NEWSLETTER-->
+      <section class="newsletter" id="newsletter">
+        <h1 class="heading-title">Newsletter</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <!--footer-->
+
+      <footer>
+        <div class="footer-wrapper">
+            <div class="footer-card">
+                <h3>ChicFlick</h3>
+                <p>Download App</p>
+                <div class="download-apps">
+                    <img src="img/app.jpg" alt="">
+                    <img src="img/play.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer-card">
+                <h4>Explore More</h4>
+                <a href="#">About Us</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Help</a>
+                <a href="#">Blog</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-card">
+                <h4>Our Services</h4>
+                <a href="#">Free Shipping</a>
+                <a href="#">Guarantee Products</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Pricing</a>
+                <a href="#">Refund Product</a>
+                <a href="#">Payment Methods</a>
+            </div>
+            <div class="footer-card">
+                <h4>Our Product</h4>
+                <a href="#">Man Style</a>
+                <a href="#">Woman Style</a>
+                <a href="#">Casual</a>
+                <a href="#">Work Collection</a>
+                <a href="#">Flash Sale</a>
+            </div>
+            <div class="footer-card">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook-f social-media"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter social-media"></i>Twitter</a>
+                <a href="#"><i class="fab fa-youtube social-media"></i>YouTube</a>
+                <a href="#"><i class="fab fa-instagram social-media"></i>Instagram</a>
+            </div>
+               
+        </div>
+        <hr class="divider">
+        <p class="copyright">CopyRight by <strong>Aishik </strong>  </p>
+      </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+   <script src="app.js"></script>
+
+</body>
+</html>
